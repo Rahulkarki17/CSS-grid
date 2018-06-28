@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <title>CSS Grids</title>
+  <style>
+    .wrapper{
+      display: grid;
+      grid-template-columns: 70% 30%;
+
+      /* grid-column-gap: 1em;
+      grid-row-gap: 1em; */
+
+      grid-gap: 1em;
+    }
+    .wrapper > div {
+      background: #eee;
+      padding: 1em;
+    }
+    .wrapper > div:nth-child(odd){
+      background: #ddd;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <div>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur distinctio quaerat vitae rerum odit voluptates ratione omnis esse, ex, libero minima voluptatem, possimus! A vero blanditiis voluptate doloremque adipisci, veritatis facere tempore, consequuntur illo. Tenetur quasi dolorem est, placeat quo, quaerat magnam! Nihil ipsa blanditiis obcaecati vitae numquam, eveniet molestiae? Cupiditate at obcaecati incidunt, ex porro distinctio, quidem aut ducimus sint autem delectus laborum et! Expedita ab excepturi reiciendis ex, ad autem repellat officiis molestias! Perspiciatis illum molestiae quaerat non.
+    </div>
+    <div>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores est, recusandae dolor magnam officia eum omnis. Repellat, soluta iste praesentium dolorum, doloribus, provident repudiandae odit eius quis ipsa ducimus beatae.
+    </div>
+    <div>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur distinctio quaerat vitae rerum odit voluptates ratione omnis esse, ex, libero minima voluptatem, possimus! A vero blanditiis voluptate doloremque adipisci, veritatis facere tempore, consequuntur illo. Tenetur quasi dolorem est, placeat quo, quaerat magnam! Nihil ipsa blanditiis obcaecati vitae numquam, eveniet molestiae? Cupiditate at obcaecati incidunt, ex porro distinctio, quidem aut ducimus sint autem delectus laborum et! Expedita ab excepturi reiciendis ex, ad autem repellat officiis molestias! Perspiciatis illum molestiae quaerat non.
+    </div>
+    <div>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores est, recusandae dolor magnam officia eum omnis. Repellat, soluta iste praesentium dolorum, doloribus, provident repudiandae odit eius quis ipsa ducimus beatae.
+    </div>
+
+  </div>
+</body>
+</html>
